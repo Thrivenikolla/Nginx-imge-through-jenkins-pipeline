@@ -1,0 +1,7 @@
+version: "3.3" # version of docker compose
+services: # define services or containers that run the application 
+   nginx: # NGINX service
+      container_name: nginx
+      image: nginx
+      ports:
+         - 8080:80 # specifies the host of 8080, and the container port of 80
