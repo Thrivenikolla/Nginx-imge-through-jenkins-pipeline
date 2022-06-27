@@ -4,4 +4,4 @@ services: # define services or containers that run the application
       container_name: nginx
       image: nginx
       ports:
-         - 8080:80 # specifies the host of 8080, and the container port of 80
+         - 80:80 # specifies the host of 8080, and the container port of 80
